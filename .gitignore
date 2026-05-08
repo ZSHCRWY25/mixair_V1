@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+models/
+experiments/
+*.pt
+*.pth
+*.pkl
+checkpoints/
+logs/
+runs/
+wandb/
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+# 如果某些数据需要上传，请单独去掉注释
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Config with local paths
+config.yaml
+# 保留 config.py 但不要上传包含个人路径或 API key 的文件
